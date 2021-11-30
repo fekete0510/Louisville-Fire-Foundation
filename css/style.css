@@ -14,13 +14,19 @@ header {
 header img {
     float: left;
     display: block;
-    margin: auto;
-   border: 5px solid black;
+    margin-right: auto;
    width: 5%;
    margin-left: 20px;
-   margin-top: 5px;
+   margin-top: 15px;
+    
+
     
 }
+
+.maltesecross {
+    border: 5px solid black;
+}
+
 
 h1 {
     color: white;
@@ -47,19 +53,23 @@ nav {
 }
 
 
-
-
-
 .mainNav :hover {
     background-color: rgba(250, 0, 0, .3)
 }
 
+.mainNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 5 0 0;
+}
 
 .menu-bar {
+    display: inline;
     float: left;
     background-color: red;
     text-align:start;
     list-style-type: none;
+    
 }
 
 
@@ -67,9 +77,8 @@ nav {
     display: block;
     text-align: center;
     padding: 20px;
-    margin: 0;
-    border: 0;
    
+  
 }
 
 .hero-image {
