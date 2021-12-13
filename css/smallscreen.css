@@ -12,7 +12,9 @@ h1 {
     color: red
 }
 
-
+h2 {
+    text-align: center;
+}
 
 /* Header */
 
@@ -96,6 +98,101 @@ nav a:visited {
 .mainNav a:active {
     color:tan;
   }
+
+
+main h1 {
+    text-align: center;
+}
+
+/* Donate Button */
+
+.centeredBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 15px;
+   
+}
+
+
+.donateBtn {
+   font-size: 36px;
+   background-color: red ;
+   color: white;
+   border-radius: 12px;
+   border: 1px solid black;
+   transition-duration: 0.4s;
+   
+}
+
+.donateBtn:hover {
+    background-color: white;
+    color: red;
+}
+
+
+/* Privacay Page */
+
+#privacypolicy {
+    border: 1px solid black;
+    margin: 15px 15px 15px 15px;
+}
+
+.paragraph {
+    margin: 10px 10px 10px 10px;
+}
+
+.privacyheaders {
+    color: black;
+}
+
+/* Contact Us */
+
+.contactus {
+    text-align: center;
+    color: black;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+  input[type=submit]:hover {
+    background-color: white;
+    color: red;
+  }
+  
+  .contactform {
+    border: 1px solid black;
+    background-color: tan;
+    margin: 30px;
+    padding: 20px;
+  }
+
+
+
 
 
 /* flex box */ 
