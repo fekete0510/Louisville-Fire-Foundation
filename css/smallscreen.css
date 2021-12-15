@@ -45,6 +45,8 @@ nav {
     border: 1px solid red;
     margin: 5px 0 5px 0;
 }
+
+
 #hamburgerBtn {
    
     background: none;
@@ -252,4 +254,44 @@ footer li a {
     content: "";
     display: table;
     clear: both;
+}
+
+/* Cookie Consent */
+
+.cookiep {
+    margin: 24px 0;
+    line-height: 2;
+    text-align: center;
+}
+
+.cookiebox {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    background: #787b7cf3;
+    color: #0a1655;
+    padding: 0 60px;
+    transition: 400ms;
+   
+}
+
+.cookiebox.active {
+    bottom: 0;
+}
+
+.cookiebox a {
+    color: #040544;
+    text-decoration: none;
+}
+
+.cookieacceptBtn {
+    background: #851a1a;
+    border: 20px;
+    color: white;
+    padding: 16px 40px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    cursor: pointer;
 }
