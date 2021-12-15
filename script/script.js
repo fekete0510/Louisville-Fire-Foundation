@@ -32,7 +32,10 @@ window.onload = () => {
 
 */
 
-/* Banner Cookie Consent 
+/* Banner Cookie Consent */
+//  https://www.youtube.com/watch?v=R_-oGJBg3nw  
+//Saved in Local storage once clicked the banner will not reappear until I clear local storage
+
 
 const cookiebox = document.querySelector(".cookiebox");
 const cookieacceptBtn = document.querySelector(".cookieacceptBtn");
@@ -46,9 +49,10 @@ cookieacceptBtn.addEventListener("click",() => {
 setTimeout(() => {
     if(!localStorage.getItem("cookieBannerDisplayed"))
     cookiebox.classList.add("active");
-}, 2000);  //calculated in milliseconds  https://www.youtube.com/watch?v=R_-oGJBg3nw //
+}, 2000);  //calculated in milliseconds//
 
-*/
+
+
 
 
 
