@@ -1,0 +1,304 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    background-color: tan;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+h1 {
+    color: red
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Header */
+
+header {
+    background-color: navy;
+}
+
+header img {
+    float: left;
+    height: 100px;
+    padding-right: 25px ;
+    padding-top: 15px;
+    
+}
+
+header h1  {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    padding-top: .7rem;
+    font-size: 2rem;
+    
+}
+
+/* nav bar */
+nav {
+    background-color: white;
+    border: 1px solid red;
+    margin: 5px 0 5px 0;
+}
+
+
+#hamburgerBtn {
+   
+    background: none;
+    border: none;
+    color: navy;
+    padding: 10px 5px 10px 5px;
+    cursor: pointer;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li {
+    list-style-type: none;
+   
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+    color: navy;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+   
+}
+
+nav li.active {
+    background-color: rgba(229, 182, 182, 0.3);
+}
+
+nav a:hover {
+    background-color: rgba(250, 0, 0, .3)
+    
+}
+
+nav ul.open{
+    display: block;
+}
+
+nav ul {
+    display: none;
+}
+
+nav a:visited {
+    color: black;
+  }
+  
+.mainNav a:active {
+    color:tan;
+  }
+
+
+main h1 {
+    text-align: center;
+}
+
+/* Donate Button */
+
+.centeredBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 15px;
+   
+}
+
+
+.donateBtn {
+   font-size: 36px;
+   background-color: red ;
+   color: white;
+   border-radius: 12px;
+   border: 1px solid black;
+   transition-duration: 0.4s;
+   
+}
+
+.donateBtn:hover {
+    background-color: white;
+    color: red;
+}
+
+
+/* Privacay Page */
+
+#privacypolicy {
+    border: 1px solid black;
+    margin: 15px 15px 15px 15px;
+}
+
+.paragraph {
+    margin: 10px 10px 10px 10px;
+}
+
+.privacyheaders {
+    color: black;
+}
+
+/* Contact Us */
+
+.contactus {
+    text-align: center;
+    color: black;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+  input[type=submit]:hover {
+    background-color: white;
+    color: red;
+  }
+  
+  .contactform {
+    border: 1px solid black;
+    background-color: tan;
+    margin: 30px;
+    padding: 20px;
+  }
+
+
+
+
+
+/* flex box */ 
+.row {
+    clear: both;
+}
+
+.limited {
+    max-width: 1040px;
+    margin: auto;
+}
+
+
+.column {
+    float: left;
+    padding: 0 2vw;
+    margin: 0 0 .75rem 0;
+}
+
+
+.small-12 {
+    width: 100%;
+}
+
+/* footer */
+footer {
+    background-color: navy;
+    font-size: 1.2rem;
+}
+
+
+
+
+footer h2 {
+    color: tan;
+    text-transform: uppercase;
+    margin: 2rem 0rem 2rem 2rem;
+  
+}
+
+footer h2 a {
+    color: tan;
+    text-decoration: none;
+}
+
+footer li {
+    color: tan;
+    list-style-type: none;
+    display: flex;
+    text-align:left; /* */
+}
+footer li a {
+    color: tan;
+    text-decoration: none;
+
+}
+
+footer ul{
+    margin: 0rem 5rem 0rem 2rem;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Cookie Consent */
+
+.cookiep {
+    margin: 24px 0;
+    line-height: 2;
+    text-align: center;
+}
+
+.cookiebox {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    background: #787b7cf3;
+    color: #0a1655;
+    padding: 0 60px;
+    transition: 400ms;
+   
+}
+
+.cookiebox.active {
+    bottom: 0;
+}
+
+.cookiebox a {
+    color: #040544;
+    text-decoration: none;
+}
+
+.cookieacceptBtn {
+    background: #851a1a;
+    border: 20px;
+    color: white;
+    padding: 16px 40px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
