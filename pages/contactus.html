@@ -45,10 +45,10 @@
 
         <h1 class="contactus">Contact Us</h1>
 
-    <div class="contactform">
+    <div class="contactform"  >
 
 
-        <form action="contact_page">
+        <form name="form1" action="#">
       
           <label for="namefirst">First Name</label>
           <input type="text" id="fname" name="firstname" >
@@ -57,19 +57,23 @@
           <input type="text" id="lname" name="lastname" >
       
           <label for="email">Email</label>
-          <input type="text" id="emailaddress" name="Email" >
+          <input type="text" id="emailaddress" name="Email"  >
             
         
           <label for="subject">Subject</label>
           <textarea id="subject" name="subject" placeholder="Enter text here" style="height:200px"></textarea>
             
          <div class="submit"> 
-          <input type="submit" value="Submit">
+          <button onclick="validate()" type="submit">Submit</button>  
            </div>
 
         </div>
 
         </form>
+
+
+
+
 
 
 
@@ -109,9 +113,11 @@
         </footer>
     
         
+             <script src="../script/script.js"></script>
     
-    
-            <script src="../script/script.js"></script>
+            <script src="../script/emailsubmit.js"></script>
+
+
       </div>
 </body>
 </html>
