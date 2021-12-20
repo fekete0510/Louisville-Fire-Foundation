@@ -206,6 +206,8 @@ input[type=text], select, textarea {
     max-width: 1040px;
     margin: auto;
 }
+
+
 .column {
     float: left;
     padding: 0 2vw;
@@ -250,11 +252,16 @@ footer li a {
 
 }
 
+footer ul{
+    margin: 0rem 5rem 0rem 2rem;
+}
+
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
 }
+
 
 /* Cookie Consent */
 

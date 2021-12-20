@@ -30,7 +30,11 @@ window.onload = () => {
 
 };
 
-*/
+I decided against using this pop up because i wanted to stylize a banner pop up.
+*/ 
+
+
+
 
 /* Banner Cookie Consent */
 //  https://www.youtube.com/watch?v=R_-oGJBg3nw  
