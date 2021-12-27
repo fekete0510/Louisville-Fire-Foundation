@@ -24,3 +24,6 @@ I was able to use CSS to stylize this banner.
 When the okay button is clicked this action is saved in local storage.  In order for the banner to show again, local storage must be cleared and the page refreshed to see the cookie banner. 
 
 
+In the footer for the copyright date, the date will be updated with java script on January 1 of every year so that the year is up to date. 
+
+
