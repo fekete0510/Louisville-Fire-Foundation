@@ -46,10 +46,9 @@
         <h1 class="contactus">Contact Us</h1>
 
 
-      <div onload="document.form1.text1.focus()" >  
+      <div onload='document.form1.text1.focus()'>  
+
         <div class="contactform"  >
-
-
         <form name="form1" action="#">
       
           <label for="namefirst">First Name</label>
@@ -57,26 +56,25 @@
       
           <label for="namelast">Last Name</label>
           <input type="text" id="lname" name="lastname" >
-      
+
+        
           <label for="email">Email</label>
-          <input type="text" id="emailaddress" name="Email"  >
-            
+          <input type="text" id="emailaddress" name="text1"  >
+ 
         
           <label for="subject">Subject</label>
           <textarea id="subject" name="subject" placeholder="Enter text here" style="height:200px"></textarea>
             
          <div class="submit"> 
+
+        <div class="submit"><input type="submit" name="submit" value="submit" onclick="ValidateEmail(document.form1.text1)"/></div>
         
-          <button onclick="ValidateEmail(document.form1.text1)" type="submit">Submit</button>  
+            
            </div>
 
         </div>
 
     </div>
-
-        
-
-
 
         </form>
 
@@ -132,7 +130,7 @@
     
         
 
-             <script src="../script/script.js"></script>
+        <script src="../script/script.js"></script>
     
         
 
