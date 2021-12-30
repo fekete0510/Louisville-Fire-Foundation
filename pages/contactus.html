@@ -13,7 +13,7 @@
 </head>
 
 
-<body>
+<body >
 
     <header class="clearfix">
         <div class="row limited"></div>
@@ -45,7 +45,9 @@
 
         <h1 class="contactus">Contact Us</h1>
 
-    <div class="contactform"  >
+
+      <div onload="document.form1.text1.focus()" >  
+        <div class="contactform"  >
 
 
         <form name="form1" action="#">
@@ -64,10 +66,17 @@
           <textarea id="subject" name="subject" placeholder="Enter text here" style="height:200px"></textarea>
             
          <div class="submit"> 
-          <button onclick="validate()" type="submit">Submit</button>  
+        
+          <button onclick="ValidateEmail(document.form1.text1)" type="submit">Submit</button>  
            </div>
 
         </div>
+
+    </div>
+
+        
+
+
 
         </form>
 
@@ -110,13 +119,22 @@
     
             </div>
     
+            <div class="cookiebox">
+                <p class="cookiep">
+                    This website uses cookies. You can read about it on our 
+                    <a href="privacynotice.html">Privacy Policy Page</a>
+                    <button class="cookieacceptBtn">Okay</button>
+                </p>
+            </div>
+        
+
         </footer>
     
         
+
              <script src="../script/script.js"></script>
     
-            <script src="../script/emailsubmit.js"></script>
-
+        
 
       </div>
 </body>
