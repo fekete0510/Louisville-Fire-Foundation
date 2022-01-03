@@ -16,6 +16,7 @@ h2 {
     text-align: center;
 }
 
+
 /* Header */
 
 header {
@@ -149,6 +150,8 @@ main h1 {
     color: black;
 }
 
+
+
 /* Contact Us Page and Form*/
 
 .contactus {
@@ -219,6 +222,7 @@ input[type=text], select, textarea {
     width: 100%;
 }
 
+
 /* footer */
 footer {
     background-color: navy;
@@ -261,6 +265,8 @@ footer ul{
     display: table;
     clear: both;
 }
+
+
 
 
 /* Cookie Consent */

@@ -41,6 +41,8 @@ setTimeout(() => {
 
 
 
+// Email Vaildate //
+
   function ValidateEmail(inputText)
 {
 

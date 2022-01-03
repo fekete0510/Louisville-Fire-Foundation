@@ -4,7 +4,7 @@ This is a Charity Orgainization that supports Louisville firefighters, their fam
 In the pages folder start with the index.html page
 This is the main page for my project.
 
-Java Script can be found in the script folder script.js
+Java Script can be found in the script folder in script.js
 Media queries can be found in the css folder at the top of the largescreen.css and mediumscreen.css pages.
 The style.css page has normalize css that was used from github. 
 
