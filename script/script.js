@@ -12,26 +12,6 @@ x.onclick = toggleMenu;
 
 
 
-/* Cookie Consent Popup Session Storage
-
-const storageType = sessionStorage;
-const consentPropertyName = 'lff_consent';
-
-const shouldSHowPopup =  () => !storageType.getItem(consentPropertyName);
-const saveToStorage = () => storageType.setItem(consentPropertyName, true);
-
-window.onload = () => {
-    if  (shouldSHowPopup()) {
-        const consent = confirm ('Agree to the terms and conditions of the site?');
-        if (consent) {
-            saveToStorage();
-        }
-    }
-
-};
-
-I decided against using this pop up because i wanted to stylize a banner pop up.
-*/ 
 
 
 
@@ -79,3 +59,31 @@ document.form1.text1.focus();
 return false;
 }
 }
+
+
+
+
+
+
+
+
+/* Cookie Consent Popup Session Storage
+
+const storageType = sessionStorage;
+const consentPropertyName = 'lff_consent';
+
+const shouldSHowPopup =  () => !storageType.getItem(consentPropertyName);
+const saveToStorage = () => storageType.setItem(consentPropertyName, true);
+
+window.onload = () => {
+    if  (shouldSHowPopup()) {
+        const consent = confirm ('Agree to the terms and conditions of the site?');
+        if (consent) {
+            saveToStorage();
+        }
+    }
+
+};
+
+I decided against using this pop up because i wanted to stylize a banner pop up.
+*/ 
