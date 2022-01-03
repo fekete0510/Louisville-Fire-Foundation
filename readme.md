@@ -1,11 +1,11 @@
 The web page is for the Louisville Fire Foundation.
-This is a Charity Orgainization that supports Louisville firefighters, family and the community. 
+This is a Charity Orgainization that supports Louisville firefighters, their families and the community. 
 
 In the pages folder start with the index.html page
 This is the main page for my project.
 
 Java Script can be found in the script folder script.js
-Media queries can be found in the css folder. At the top of the largescreen.css and mediumscreen.css
+Media queries can be found in the css folder at the top of the largescreen.css and mediumscreen.css pages.
 The style.css page has normalize css that was used from github. 
 
 Cookie Consent Banner.
@@ -13,7 +13,7 @@ The banner pops up at the bottom of the screen 2 seconds after arriving to the p
 When the okay button is clicked the banner disappears, this action is saved in local storage.  In order for the banner to show again, local storage must be cleared and the page refreshed to see the cookie banner.
 
 (I orginally used a standard pop up window to accept cookies when first arrving to the page. I used session storage to save the accept click so that every time you navigated to the home page you would have to accept the cookies. 
-I did not like the look of this pop up so I switced to a banner cookie consent and changed the storage. I kept this is my code for personal future refrence.)
+I did not like the look of this pop up so I switced to a banner cookie consent and changed the storage. I kept this disabled code for personal future refrence.)
 
 Navigation Bar at the top of the page. 
 When the page is seen with a medium screen (768px) or larger the navigation menu is shown horizontally at the top of the page.
