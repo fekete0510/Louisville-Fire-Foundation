@@ -5,8 +5,11 @@ In the pages folder start with the index.html page
 This is the main page for my project.
 
 Java Script can be found in the script folder in script.js
-Media queries can be found in the css folder at the top of the largescreen.css and mediumscreen.css pages.
-The style.css page has normalize css that was used from github. 
+
+CSS can be found in the css folder there are four different files there.
+smallscreen.css files has the majority of the css that is applied to the project .
+Media queries can be found in the css folder at the top of the largescreen.css and mediumscreen.css files.
+The style.css page has a normalize css that was used from github. 
 
 Cookie Consent Banner.
 The banner pops up at the bottom of the screen 2 seconds after arriving to the page.
