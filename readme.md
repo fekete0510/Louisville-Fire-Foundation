@@ -63,6 +63,7 @@ In the footer under Social there is a Contact Us link.
 Also found in the pages folder in the contactus.html file.
 
 Located: index.html line 119 and script.js line 44.
+
 On this page there is a form to input first and last name and email address. When this form is submitted it checks to make sure that a valid email address has been entered. If the email address is valid on submit there is a popup that says You have entered a valid email address. If the email address does not fit the requirements, you will see a popup that says invalid email address.
 
  

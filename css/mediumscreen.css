@@ -5,24 +5,31 @@
 header h1 {
         text-align: center;
         color:white;
+        
     }
 
+header img {
+        float: left;
+        height: 100px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }  
 
- .medium-6 {
+.medium-6 {
     flex-basis: 50%;
-}
+    }
  
 nav button {
     display: none;
-}
+    }
 
 nav ul {
     display: block;
-}
+    }
 
 
 nav li {
     float: left;
-}
+    }
 
 }
