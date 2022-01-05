@@ -3,16 +3,15 @@ This is a Charity Orgainization that supports Louisville firefighters, their fam
 
 
 
-In the pages folder start with the index.html page
-This is the main page for my project.
+In the pages folder start with the index.html page, this is the main page for my project.
 
 
-Java Script can be found in the script folder in script.js
+Java Script can be found in the script folder in script.js.
 
 
-CSS can be found in the css folder there are four different files there.
+CSS can be found in the css folder, there are four different files there.
+smallscreen.css files has the majority of the css that is applied to the project.
 
-smallscreen.css files has the majority of the css that is applied to the project .
 Media queries can be found in the css folder at the top of the largescreen.css and mediumscreen.css files.
 The style.css page has a normalize css that was used and credited from github. 
 
@@ -27,13 +26,13 @@ When the okay button is clicked the banner disappears, this action is saved in l
 
 
 (I orginally used a standard pop up window to accept cookies when first arrving to the page. I used session storage to save the accept click so that every time you navigated to the home page you would have to accept the cookies. 
-I did not like the look of this pop up so I switched to a banner cookie consent and changed the storage. I kept this disabled code for personal future refrence.)
+I did not like the look of this pop up so I switched to a banner cookie consent and changed the storage. I kept this disabled code for personal future reference.)
 
 
 
 Navigation Bar at the top of the page. 
 
-Located: index.html line 38 and  script.js line 3.
+Located: index.html line 38 and script.js line 3.
 
 When the page is seen with a medium screen (768px) or larger the navigation menu is shown horizontally at the top of the page.
 On small screens the navigation bar is collapsed except the hamburger button is still shown.
@@ -43,10 +42,10 @@ When the hamburger button is clicked, the navigation menu expands and the page n
 
 Flex box is used in the footer.
 
-Located index.html line 96 
+Located index.html line 9 and found in small.css line 220 and line 235, medium.css line 11 and large.css line 10.
 
-On small screens the footer links are stacked on top of each other in a single column covering 100% of the screen. When using medium screens with a minimum width of 768px the footer is in two columns, each taking up 50% of the screen .
-On large screens with a min width of 1024px the footer is in 4 columns, each taking up 25% of the screen. 
+On small screens the footer links are stacked on top of each other in a single column covering 100% of the screen. When using medium screens with a minimum width of 768px the footer is in two columns, each taking up 50% of the screen.
+On large screens with a min width of 900px the footer is in 4 columns, each taking up 25% of the screen. 
 
 
 
@@ -58,12 +57,13 @@ Located : index.html line 124.
 In the footer for the copyright date, the date will be updated with java script on January 1 of every year so that the year is up to date. 
 
 
-In the footer under Social there is a Contact Us link. 
-Located: index.html line 119 and script.js line 44
+Email Validation
 
+In the footer under Social there is a Contact Us link. 
 Also found in the pages folder in the contactus.html file.
 
-On this page there is a form to input first and last name and email address. When this form is submitted it checks to make sure that a valid email address has been entered. If the email address is valid on submit there is a popup that says You have entered a valid email address. If the email input is wrong you will see a popup that says invalid email address.
+Located: index.html line 119 and script.js line 44.
+On this page there is a form to input first and last name and email address. When this form is submitted it checks to make sure that a valid email address has been entered. If the email address is valid on submit there is a popup that says You have entered a valid email address. If the email address does not fit the requirements, you will see a popup that says invalid email address.
 
  
 
