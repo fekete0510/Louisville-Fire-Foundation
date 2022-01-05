@@ -107,6 +107,23 @@ main h1 {
     text-align: center;
 }
 
+
+.row {
+    clear: both;
+}
+
+.limited {
+    margin: auto;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
 /* Donate Button */
 
 .centeredBtn {
@@ -201,25 +218,25 @@ input[type=text], select, textarea {
 
 
 /* flex box */ 
-.row {
-    clear: both;
+
+.rows {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.limited {
-    max-width: 1040px;
-    margin: auto;
-}
+.limits {
 
+}
 
 .column {
-    float: left;
+    
     padding: 0 2vw;
     margin: 0 0 .75rem 0;
 }
 
 
 .small-12 {
-    width: 100%;
+    flex-basis: 100%;
 }
 
 
@@ -260,11 +277,6 @@ footer ul{
     margin: 0rem 5rem 0rem 2rem;
 }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 
 

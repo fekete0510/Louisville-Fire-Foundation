@@ -8,7 +8,7 @@ header h1 {
 }
 
 .large-3 {
-    width: 25%;
+    flex-basis: 25%;
 }
 
 
