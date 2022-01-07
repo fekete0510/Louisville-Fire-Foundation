@@ -42,7 +42,7 @@ When the hamburger button is clicked, the navigation menu expands and the page n
 
 Flex box is used in the footer.
 
-Located index.html line 9 and found in small.css line 220 and line 235, medium.css line 11 and large.css line 10.
+Located index.html line 9 and found in smallscreen.css line 220 and line 235, mediumscreen.css line 11 and largescreen.css line 10.
 
 On small screens the footer links are stacked on top of each other in a single column covering 100% of the screen. When using medium screens with a minimum width of 768px the footer is in two columns, each taking up 50% of the screen.
 On large screens with a min width of 900px the footer is in 4 columns, each taking up 25% of the screen. 
@@ -64,9 +64,15 @@ Also found in the pages folder in the contactus.html file.
 
 Located: index.html line 119 and script.js line 44.
 
-On this page there is a form to input first and last name and email address. When this form is submitted it checks to make sure that a valid email address has been entered. If the email address is valid on submit there is a popup that says You have entered a valid email address. If the email address does not fit the requirements, you will see a popup that says invalid email address.
+On this page there is a form to input first and last name and email address. When this form is submitted it checks to make sure that a valid email address has been entered. If the email address is valid on submit there is a popup that says "You have entered a valid email address." If the email address does not fit the requirements, you will see a popup that says "invalid email address."
 
  
+:nth-child 
+
+Located: newsletter.html line 60 and on smallscreen.css line 349.
+
+In the Nav bar click on News Letter. On that page there is a table for events. I used the :nth-child to change the colors of the odd rows and for the 4th column.
+If you click on the RSVP button it brings you to an RSVP page to fill out and submit. On click you will get an alert that says "Thank you for your RSVP" Located: rsvp.html line 70 and script.js line 67.
 
 
 

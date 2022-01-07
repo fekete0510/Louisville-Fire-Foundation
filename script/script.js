@@ -64,6 +64,21 @@ return false;
 
 
 
+/*Rsvp Button */
+
+function myFunction() {
+    alert("Thank you for your RSVP");
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
