@@ -50,7 +50,7 @@ var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 if(inputText.value.match(mailformat))  
 
 {
-alert("You have entered a valid email address!");    //alert for a valid email address
+alert("Thank you for your submission");    //alert for a valid email address
 document.form1.text1.focus();
 return true;
 }

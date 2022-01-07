@@ -64,7 +64,7 @@ Also found in the pages folder in the contactus.html file.
 
 Located: index.html line 119 and script.js line 44.
 
-On this page there is a form to input first and last name and email address. When this form is submitted it checks to make sure that a valid email address has been entered. If the email address is valid on submit there is a popup that says "You have entered a valid email address." If the email address does not fit the requirements, you will see a popup that says "invalid email address."
+On this page there is a form to input first and last name and email address. When this form is submitted it checks to make sure that a valid email address has been entered. If the email address is valid on submit there is an alert that says "Thank you for your submission." If the email address does not fit the requirements, you will see an alert that says "invalid email address."
 
  
 :nth-child 
@@ -72,7 +72,7 @@ On this page there is a form to input first and last name and email address. Whe
 Located: newsletter.html line 60 and on smallscreen.css line 349.
 
 In the Nav bar click on News Letter. On that page there is a table for events. I used the :nth-child to change the colors of the odd rows and for the 4th column.
-If you click on the RSVP button it brings you to an RSVP page to fill out and submit. On click you will get an alert that says "Thank you for your RSVP" Located: rsvp.html line 70 and script.js line 67.
+If you click on one of the RSVP buttons it brings you to an RSVP page to fill out and submit. On click you will get an alert that says "Thank you for your RSVP" Located: rsvp.html line 70 and script.js line 67.
 
 
 
